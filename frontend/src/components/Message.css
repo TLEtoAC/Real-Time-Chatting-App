@@ -1,0 +1,46 @@
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.own-message {
+  background-color: #007bff;
+  color: white;
+  margin-left: auto;
+  text-align: right;
+}
+
+.other-message {
+  background-color: #f1f1f1;
+  color: #333;
+  margin-right: auto;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.sender-name {
+  font-weight: bold;
+}
+
+.timestamp {
+  font-style: italic;
+}
+
+.message-text {
+  line-height: 1.4;
+} 
